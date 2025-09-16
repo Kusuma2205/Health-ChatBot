@@ -39,27 +39,29 @@ backend/
 git clone https://github.com/Kusuma2205/Health-ChatBot.git
 cd Health-ChatBot/backend
 
-//Activate virtual environment
+2.**Activate virtual environment**
 # Windows
 venv\Scripts\activate
 
 # macOS/Linux
 source venv/bin/activate
-//Install dependencies
+3.**Install dependencies**
+
 
 pip install -r requirements.txt
 
-//Run Django server
+
+4.**4.Run Django server**
 
 python manage.py runserver
 
-//Access the backend
+5.**Access the backend**
 
 The server runs locally at: http://127.0.0.1:8000/
 
 You can test your chatbot API endpoints from here.
 
-//Usage
+6.**Usage**
 
 The chatbot fetches remedies from remedies.py based on disease names.
 
